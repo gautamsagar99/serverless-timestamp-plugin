@@ -1,0 +1,15 @@
+frameworkVersion: '4'
+
+service: "test"
+
+plugins:
+  - serverless-timestamp-plugin
+
+custom:
+  timestamp: ""
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  environment:
+    BUILD_TIMESTAMP: ${self:custom.timestamp}

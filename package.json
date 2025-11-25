@@ -1,0 +1,17 @@
+{
+  "name": "serverless-timestamp-plugin",
+  "version": "1.0.1",
+  "description": "A Serverless Framework plugin that injects a timestamp into serverless.yml",
+  "main": "timestamp-plugin.js",
+  "keywords": [
+    "serverless",
+    "serverless-plugin",
+    "timestamp"
+  ],
+  "author": "Gautam Sagar",
+  "license": "MIT",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/gautamsagar99/serverless-timestamp-plugin.git"
+}
+}
